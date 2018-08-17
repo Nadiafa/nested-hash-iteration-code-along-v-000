@@ -16,10 +16,8 @@ require 'pry'
   
 def remove_strawberry(contacts)
 
-  ice_cream_arr.each do |i|
-    if  i == "strawberry"
-    ice_cream_arr_new << ice_cream_arr.delete!(i) 
-    end
+  ice_cream_arr.each do |person, contact_details_hash|
+    binding.pry
   end
 
 end
