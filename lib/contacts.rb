@@ -22,5 +22,5 @@ def remove_strawberry(contacts)
     ice_cream_arr.delete(i) 
     end
   end
-
+ice_cream_arr
 end
