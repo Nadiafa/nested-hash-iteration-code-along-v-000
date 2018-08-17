@@ -15,8 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  ice_cream_arr = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
-  ice_cream_arr_new = []
+
   ice_cream_arr.each do |i|
     if  i == "strawberry"
     ice_cream_arr_new << ice_cream_arr.delete!(i) 
