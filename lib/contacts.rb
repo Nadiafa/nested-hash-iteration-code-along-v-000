@@ -15,5 +15,6 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors][0].delete
+  result = contacts["Freddy Mercury"][:favorite_ice_cream_flavors][0].delete
+  puts result
 end
