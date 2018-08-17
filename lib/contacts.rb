@@ -22,8 +22,10 @@ def remove_strawberry(contacts)
       #   data.delete_if {|ice_cream| ice_cream == "strawberry"}
       # end
       
-      if data == "strawberry"
-        data.delete
+      data.each do |i|
+        if data[i] == "strawberry" 
+          data[i].delete
+        end
       end
     end
   end
