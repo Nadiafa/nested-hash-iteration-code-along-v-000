@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
 
   ice_cream_arr.each do |i|
     if  i == "strawberry"
-    ice_cream_arr.delete 
+    i.delete 
     end
   end
 
